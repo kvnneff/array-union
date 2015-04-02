@@ -1,5 +1,5 @@
 'use strict';
-var arrayUniq = require('array-uniq');
+var arrayUniq = require('sindresorhus/array-uniq');
 
 module.exports = function () {
 	return arrayUniq([].concat.apply([], arguments));
